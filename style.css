@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: beige;
+    
+}
+p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:cursive;
+    text-transform: capitalize;
+}
+#sonuc{
+    background-color:rgb(245, 241, 241)
+}
+.container{
+   
+    background-color: rgb(230, 196, 135);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid darkred;
+    
+}
+
+#sonuc{
+    width: 205px;
+    height: 50px;
+
+}
+.kare{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
